@@ -55,9 +55,9 @@
         </section>
 
     <footer>
-        <p>&copy; [Kaylane Coutinho] - [Ano]</p>
+        <p>&copy; [Kaylane Coutinho] - [2025]</p>
         <ul>
-            <li><a href="[Link para seu LinkedIn]">LinkedIn</a></li>
+            <li><a href="[www.linkedin.com/kaylane-coutinho-9069a2298]">LinkedIn</a></li>
             <li><a href="[Lhttps://github.com/kaycout]">GitHub</a></li>
         </ul>
     </footer>
