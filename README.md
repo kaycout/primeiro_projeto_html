@@ -23,8 +23,8 @@
 
     <section id="sobre">
         <h2>Sobre Mim</h2>
-        <p>oiii, se você está no meu perfil, e chegou até aqui, a seguir irá conhecer um pouquinho sobre mim!
-		<p>Meu nome é Kaylane, tenho 18 anos e atualmente sou estudante da área de tecnologia. Faço curso técnico em Informática e ao longo dos anos adquiri alguns certificados voltado para área e curso de idiomas, como;</p>
+<p>oiii, se você está no meu perfil, e chegou até aqui, a seguir irá conhecer um pouquinho sobre mim!
+<p>Meu nome é Kaylane, tenho 18 anos e atualmente sou estudante da área de tecnologia. Faço curso técnico em Informática e ao longo dos anos adquiri alguns certificados voltado para área e curso de idiomas, como;</p>
 			</ul>
 			<li>Inglês<li>
 			<li>Espanhol<li>
@@ -32,7 +32,7 @@
 			<li>Inteligência Arficial<li>
 			<li>Programaçao em banco de dados.</li>
 			</ul>
-<p>A verdade é que sou apaixonada por tecnologia e ficaria horas aprendendo e colocando em prática coisas que sempre tive vontade de aptrender. </p>
+<p>A verdade é que sou apaixonada por tecnologia e ficaria horas aprendendo e colocando em prática coisas que sempre tive vontade de aprender. </p>
   <p>Tenho muita vontade de iniciar mais cursos e aprimorar cada vez mais meu aprendizado, porém por enquanto, o meu maior desejo é entrar para a Faculdade e cursar Segurança da Informação para me especializar e trabalhar com pericia criminal voltado para Tecnologia.</p>
   
   
