@@ -1,7 +1,7 @@
 # Meu Portfolio em HTML 🖥🖱
 <img align="center" alt="kaycout-HTML" eight="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 
-• Meu portifólio em Html (Estou iniciando a fazer alguns trabalhinhos simples utilizando apenas HTML e futuramente com CSS)
+• Meu portifólio em Html (Estou iniciando alguns trabalhinhos simples utilizando apenas HTML e futuramente com CSS)
 
 <!DOCTYPE html>
 <html>
