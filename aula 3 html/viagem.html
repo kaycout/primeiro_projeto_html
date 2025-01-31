@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<meta chatset="UTF-8"/>
+<head>
+    <title> Agência de viagens</title>
+</head>
+<body>
+    <p>
+        Agência especializada em viagens de turismo nacional e internacional.
+        Oferecemos sempre o melhor pacote de viagem para você e sua família.</br> 
+        <!-- br (break rows no html serve para quebrar linha) --> 
+     </p>
+        <h1> Formulário para Reserva de Viagens </h1>
+        <h3>Dados do passageiro</h3>
+        <form>
+                <label for="nome">Nome contato:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" id="sobrenome" name="sobrenome"><br>
+               
+                <label for="endereco">Endereço:</label><br>
+                <input type="text" id="endereco" name="endereco"><br>
+    
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="number" id="telefone" name="telefone"><br>
+
+                <label for="CPF">CPF:</label><br>
+                <input type="number" id="cpf" name="cpf"><br>
+
+                <label for="rg">RG:</label><br>
+                <input type="number" id="rg" name="rg"><br>
+
+                <label for="datnasc">Data de nascimento:</label><br>
+                <input type="date" id="datnasc" name="datnasc" min="1940-01-01" max="2030-12-31"><br>
+                 <!-- (comando placeholder, outra forma de definir data no html ) --> 
+		</form>
+
+                <h3> Utilize este campo para informar os dados da sua viagem. </h3>
+                <form>
+                    <label for="origem">Origem:</label><br>
+                    <input type="text" id="origem" name="origem"><br>
+                    <label for="uf">Estado:</label><br>
+                    <select name="estado">
+                        <option value="AC"> Acre</option>
+		                <option value="AL"> Alagoas</option>
+		                <option value="AP"> Amapá</option>
+		                <option value="AM"> Amazonas</option>
+		                <option value="BA"> Bahia</option>
+		                <option value="CE"> Ceará</option>
+		                <option value="DF"> Distrito Federal</option>
+		                <option value="ES"> Espírito Santo</option>
+		                <option value="GO"> Goiás</option>
+		                <option value="MG"> Maranhão</option>
+		                <option value="MT"> Mato Grosso</option>
+		                <option value="MS"> Mato Grosso do Sul</option>
+		                <option value="MG"> Minas Gerais</option>
+		                <option value="PA"> Pará</option>
+		                <option value="PB"> Paraíba</option>
+		                <option value="PE"> Pernambuco</option>
+		                <option value="PI"> Piauí</option>
+		                <option value="PR"> Paraná</option>
+		                <option value="RJ"> Rio de Janeiro</option>
+		                <option value="RN"> Rio Grande do Norte</option>
+		                <option value="RO"> Rondônia</option>
+		                <option value="RR"> Roraima</option>
+		                <option value="RS"> Rio Grande do Sul</option>
+		                <option value="SC"> Santa Catarina</option>
+		                <option value="SE"> Sergipe</option>
+		                <option value="SP"> São Paulo</option>
+		                <option value="TO"> Tocantins</option>
+		                </select>
+
+                        <br>
+
+                    <label for="destino">Destino:</label><br>
+                    <input type="text" id="destino" name="destino"><br>
+
+
+                    <label for="uf">Estado:</label><br>
+                    <select name="estado">
+                        <option value="AC"> Acre</option>
+		                <option value="AL"> Alagoas</option>
+		                <option value="AP"> Amapá</option>
+		                <option value="AM"> Amazonas</option>
+		                <option value="BA"> Bahia</option>
+		                <option value="CE"> Ceará</option>
+		                <option value="DF"> Distrito Federal</option>
+		                <option value="ES"> Espírito Santo</option>
+		                <option value="GO"> Goiás</option>
+		                <option value="MG"> Maranhão</option>
+		                <option value="MT"> Mato Grosso</option>
+		                <option value="MS"> Mato Grosso do Sul</option>
+		                <option value="MG"> Minas Gerais</option>
+		                <option value="PA"> Pará</option>
+		                <option value="PB"> Paraíba</option>
+		                <option value="PE"> Pernambuco</option>
+		                <option value="PI"> Piauí</option>
+		                <option value="PR"> Paraná</option>
+		                <option value="RJ"> Rio de Janeiro</option>
+		                <option value="RN"> Rio Grande do Norte</option>
+		                <option value="RO"> Rondônia</option>
+		                <option value="RR"> Roraima</option>
+		                <option value="RS"> Rio Grande do Sul</option>
+		                <option value="SC"> Santa Catarina</option>
+		                <option value="SE"> Sergipe</option>
+		                <option value="SP"> São Paulo</option>
+		                <option value="TO"> Tocantins</option>
+		                </select>
+					</form>
+
+                        <br>
+                   
+                    <label for="datainicio"> Ida:</label><br>
+                    <input type="text" id="datainicio" name="datainicio" min="1940-01-01" max="2030-12-31"><br>
+
+                    <label for="datafinal"> Volta:</label><br>
+                    <input type="date" id="datafim" name="datafim" min="1940-01-01" max="2030-12-31"><br>
+                </form>
+
+		<h3> Selecione o tipo de viagem que deseja realizar para sua Ida</h3>
+		<form>
+
+				<input type="Checkbox" name="Terrestre" value="2"> Terrestre
+	
+				<input type="Checkbox" name="Areia" value="2"> Aérea
+
+				<input type="Checkbox" name="Marítima" value="3"> Marítima
+
+				<h3> Selecione o tipo de viagem que deseja realizar para sua Volta</h3>
+				<input type="Checkbox" name="Terrestre" value="2"> Terrestre
+	
+				<input type="Checkbox" name="Areia" value="2"> Aérea
+
+				<input type="Checkbox" name="Marítima" value="3"> Marítima
+		</form>
+
+		
+			<h3>Tipos de serviços</h3>
+			<form>
+			<p>
+				Em seguida, selecione os tipos de serviços que deseja para sua viagem.
+			</p>
+
+				<input type="Checkbox" name="pacote" value="2"> Pacote e/ou passagem
+	
+				<input type="Checkbox" name="hospedagem" value="2"> Hospedagem
+
+				<input type="Checkbox" name="hospedagem" value="2"> Tipo de pensão
+				<select name="opcao">
+					<option value="completa"> Completa</option>
+					<option value="meia"> Meia</option>
+					<option value="sem"> Sem serviço de pensão</option>
+				</select>
+			</form>
+
+		<h3>Forma de Pagamento</h3>
+		<form>
+			<p>
+				Selecione a forma que deseja realizar o pagamento da sua viagem!
+			</p>
+				<select name="opcao">
+					<option value="pix"> Pix</option>
+					<option value="débito"> Débito</option>
+					<option value="Crédito"> Crédito</option>
+					<option value="Boleto"> Boleto</option>
+					<option value="Dinheiro"> Dinheiro</option>
+				</select>
+				
+		</form>
+		<h3>Agradecemos a preferência!</h3>
+</body>
+<footer> Desenvolvido por Kaylane Coutinho<br>
+	número para contato 1845944994.
+
+</footer>
+</html>
