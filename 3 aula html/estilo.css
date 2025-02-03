@@ -1,0 +1,26 @@
+h1 {
+    color: lightseagreen;
+    font-family: cursive;
+}
+
+p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    color: lightseagreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    background-color: lightgrey;
+}
+
+form {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    font-family: cursive;
+}

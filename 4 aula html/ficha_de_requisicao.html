@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8"/>
+    <head>
+        <title> Ficha de requisição </title>
+    </head>
+
+    <body>
+        <h1> Ficha de requisição de materiais </h1>
+        <h3> Dados do Solicitante </h3>
+
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone"><br>
+
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="endereco"><br>
+
+            <label for="complemento">Complemento:</label><br>
+            <input type="text" id="endereco" name="endereco"><br>
+
+            <label for="complemento">Complemento:</label><br>
+            <input type="text" id="endereco" name="endereco"><br>
+
+            <label for="rg">RG:</label><br>
+            <input type="number" id="rg" name="rg"><br>
+
+            <label for="cpf">CPF:</label><br>
+            <input type="number" id="cpf" name="cpf"><br>
+
+            <label for="datnasc">Data de nascimento:</label><br>
+            <input type="date" id="datnasc" name="datnasc" min="1940-01-01" max="2030-12-31"><br>
+        </form>
+
+    <h3> Tabela de materiais disponíveis </h3>
+
+        <table border="2">
+            <tr> 
+            <th> Material </th> 
+            <th> Categoria </th>
+            <th> Especificação </th>
+            <th> Quantidade </th>
+            <th> Valor </th>
+            </tr>
+            <tr>
+            <td> Areia </td>
+            <td> Construção </td>
+            <td> 20 kg </td>
+            <td> 1 unid </td>
+            <td> R$ 3,50 </td>
+            </tr>
+            <tr> 
+            <td>  Tijolo </td>
+            <td> Construção </td>
+            <td> Baiano </td>
+            <td> 1 unid </td>
+            <td> R$ 2,70 </td>
+            </tr>
+            <td>  Cano 3/4" </td>
+            <td> Hidráulica </td>
+            <td> PVC </td>
+            <td> metro </td>
+            <td> R$ 6,99 </td>
+            </tr>
+            <td> Lâmpada LED 110V </td>
+            <td> Eletrica </td>
+            <td> Branca 80W </td>
+            <td> 1 unid </td>
+            <td> R$ 8,99 </td>
+            </tr>
+            <td> Torneira de banheiro </td>
+            <td> Hidráulica </td>
+            <td> bancada </td>
+            <td> 1 unid </td>
+            <td> R$ 25,00 </td>
+            </tr>
+            <td> Chuveiro </td>
+            <td> Hidráulica </td>
+            <td> 220V </td>
+            <td> 1 unid </td>
+            <td> R$ 80,00 </td>
+
+
+
+            </table>
+
+
+
+        <h3> Lista de matertiais solicitados </h3>
+
+        <p>
+            Selecione os materiais desejados:<br>
+            <input type="Checkbox" name="Areia" value="1"> Areia
+            <input type="number" id="quantity" value=""> <br>
+            <input type="Checkbox" name="Tijolo" value="2"> Tijolo
+            <input type="number" id="quantity" value=""> <br>
+            <input type="Checkbox" name="Cano3/4" value="3"> Cano 3/4
+            <input type="number" id="quantity" value=""> <br>
+            <input type="Checkbox" name="Lâmpada LED 110V" value="4"> Lâmpada LED 110V
+            <input type="number" id="quantity" value=""> <br>
+            <input type="Checkbox" name="Torneira de banheiro" value="5"> Torneira de banheiro
+            <input type="number" id="quantity" value=""> <br>
+            <input type="Checkbox" name="Chuveiro" value="6"> Chuveiro
+            <input type="number" id="quantity" value=""> <br>
+
+            </p></br>
+
+            <button type="button">Cadastrar!</button>
+    
+</body>
+
+</html>
